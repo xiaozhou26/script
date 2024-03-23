@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y wget
 
 # 下载frp
-wget https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz
+wget https://gh.angelxf.cf/https://github.com/fatedier/frp/releases/download/v0.44.0/frp_0.44.0_linux_amd64.tar.gz
 
 # 解压frp
 tar -zxvf frp_0.44.0_linux_amd64.tar.gz

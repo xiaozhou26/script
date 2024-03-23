@@ -18,7 +18,7 @@ case $ARCH in
   *) echo "不支持的CPU架构: $ARCH"; exit 1 ;;
 esac
 
-FRPC_URL="https://github.com/fatedier/frp/releases/download/v0.47.0/$FRPC_FILE"
+FRPC_URL="https://gh.angelxf.cf/https://github.com/fatedier/frp/releases/download/v0.47.0/$FRPC_FILE"
 
 # 下载对应架构的frpc
 wget --no-check-certificate -O frpc.tar.gz $FRPC_URL
